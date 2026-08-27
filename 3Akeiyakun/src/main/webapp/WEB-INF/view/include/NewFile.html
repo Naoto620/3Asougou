@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>新規試算入力(契約条件タブ)(個人)</title>
+</head>
+<body>
+<header>
+<h1>新規試算入力(契約条件タブ)(個人)</h1></header>
+
+<main><h2>新規試算</h2></main>
+
+<button type="button" >トップへ戻る</button>
+<button type="button" >契約条件</button>
+<button type="button" >保障</button>
+
+<h3>被保険者情報</h3>
+<!-- 被保険者区分 -->
+<div><label> 被保険者区分</label>
+<input type="radio" id="personal" name="insurebKbn" value="1">
+<label for ="personal">個人</label>
+
+<input type="radio" id="corporation" name="insurebKbn" value="2">
+<label for ="personal">法人</label>
+</div>
+
+<br>
+
+<!-- 氏名カナ -->
+<div>
+<label for ="personal">氏名　カナ(性)</label>
+<input type="text" id="seiKanal" name="seiKana" >
+</div>
+<br>
+<div>
+<label for ="personal">氏名　カナ(名)</label>
+<input type="text" id="meiKanal" name="meiKana" >
+</div>
+
+<!-- 氏名漢字 -->
+<div>
+<label for ="personal">氏名　漢字(性)</label>
+<input type="text" id="seiKanji" name="seiKanji" >
+</div>
+<br>
+<div>
+<label for ="personal">氏名　漢字(名)</label>
+<input type="text" id="meiKanji" name="meiKanji" >
+</div>
+
+<h3>住所</h3>
+
+<!-- 郵便番号 -->
+<div>
+<label for ="postcode">郵便番号</label>
+<input type="text" id="postcode" name="postcode" maxlength>
+</div>
+
+<br>
+<!-- 住所カナ -->
+<div>
+<label for ="adressKana1">住所1-カナ</label>
+<input type="text" id="adressKana1" name="adressKana1" >
+</div>
+
+<div>
+<label for ="adressKana1">住所2-カナ</label>
+<input type="text" id="adressKana2" name="adressKana2" >
+</div>
+
+<div>
+<label for ="adressKana1">住所1-漢字</label>
+<input type="text" id="adressKanji1" name="adressKanji1" >
+</div>
+
+<div>
+<label for ="adressKana2">住所2-漢字</label>
+<input type="text" id="adressKanji2" name="adressKanji2" >
+</div>
+
+<div>
+<label for ="telphoneNo">電話番号</label>
+<input type="text" id="telphoneNo" name="telphoneNo" >
+</div>
+
+<div>
+<label for ="faxNo">FAX番号</label>
+<input type="text" id="faxNo" name="faxNo" >
+</div>
+
+<div>
+<label for ="gender">性別</label>
+<input type="radio" id="gender" name="gender" >
+</div>
+
+<div>
+<label for ="birthday">生年月日</label>
+<input type=text id="birthday" name="birthday" >
+</div>
+
+<div>
+<label for ="startInsuranceTerm">保険期間開始日</label>
+<input type=text id="startInsuranceTerm" name="startInsuranceTerm" >
+</div>
+
+
+
+</body>
+</html>
